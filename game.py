@@ -1,4 +1,4 @@
-# game.py
+# this is the "game.py" file...
 
 import random
 
