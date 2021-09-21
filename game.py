@@ -15,7 +15,8 @@ print (user_choice)
 if user_choice in ["rock", "paper", "scissors"]:
     print("And...")
 else:
-    print ("Sorry, try playing with a different choice")
+    print ("Sorry, try again playing with a different choice!")
+    quit ()
 
 # COMPUTER CHOICE (AT RANDOM)
 
