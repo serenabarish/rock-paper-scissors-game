@@ -12,10 +12,11 @@ print("User chose:")
 print (user_choice)
 
 # VALIDATING USER INPUT
+
 if user_choice in ["rock", "paper", "scissors"]:
     print("And...")
 else:
-    print ("Sorry, try again playing with a different choice!")
+    print ("Sorry, that is not a valid option. Try playing again with a different choice!")
     quit ()
 
 # COMPUTER CHOICE (AT RANDOM)
