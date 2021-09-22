@@ -31,23 +31,23 @@ print(computer_choice)
 if user_choice == "rock":
     if computer_choice == "scissors":
         print("Congratulations 'Player One', you won!")
-    if computer_choice == "paper":
+    elif computer_choice == "paper":
         print("Computer won, better luck next time!")
-    if computer_choice == "rock":
+    elif computer_choice == "rock":
         print("tie, play again!")
 elif user_choice == "scissors":
     if computer_choice == "paper":
         print("Congratulations 'Player One', you won!")
-    if computer_choice == "rock":
+    elif computer_choice == "rock":
         print ("Computer won, better luck next time!")
-    if computer_choice == "scissors":
+    elif computer_choice == "scissors":
         print ("tie, play again")
 elif user_choice == "paper":
     if computer_choice == "rock":
         print ("Congratulations 'Player One', you won!")
-    if computer_choice == "scissors":
+    elif computer_choice == "scissors":
         print ("Computer won, better luck next time!")
-    if computer_choice == "paper":
+    elif computer_choice == "paper":
         print ("tie, play again!")
 
 print("Thanks for playing!")
