@@ -2,14 +2,15 @@
 
 import random
 
-print("Welcome 'Player One' to my Rock, Paper, Scissors Game!")
+PLAYER_NAME = input("Welcome! What's your name?")
+print("Welcome", PLAYER_NAME, "to my rock, paper, scissors game!")
 print("Rock, Paper, Scissors, Shoot!")
 
 # PROMPT USER FOR INPUT
 
 user_choice = input("Choose 'rock' or 'paper' or 'scissors':")
 print("----------")
-print("User chose:")
+print(PLAYER_NAME, "chose:")
 print (user_choice)
 
 # VALIDATING USER INPUT
@@ -32,26 +33,26 @@ print("----------")
 
 if user_choice == "rock":
     if computer_choice == "scissors":
-        print("Congratulations 'Player One', you won!")
+        print("Congratulations", PLAYER_NAME, "you won!")
     elif computer_choice == "paper":
         print("Computer won, better luck next time!")
     elif computer_choice == "rock":
         print("tie, play again!")
 elif user_choice == "scissors":
     if computer_choice == "paper":
-        print("Congratulations 'Player One', you won!")
+        print("Congratulations", PLAYER_NAME, "you won!")
     elif computer_choice == "rock":
         print ("Computer won, better luck next time!")
     elif computer_choice == "scissors":
         print ("tie, play again")
 elif user_choice == "paper":
     if computer_choice == "rock":
-        print ("Congratulations 'Player One', you won!")
+        print ("Congratulations", PLAYER_NAME, "you won!")
     elif computer_choice == "scissors":
         print ("Computer won, better luck next time!")
     elif computer_choice == "paper":
         print ("tie, play again!")
 
-print("Thanks for playing!")
+print("Thanks for playing", PLAYER_NAME,"!")
 
 
