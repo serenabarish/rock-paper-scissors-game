@@ -4,8 +4,8 @@ import random
 import os
 from dotenv import load_dotenv
 load_dotenv()
+PLAYER_NAME = os.getenv("PLAYER_NAME")
 
-PLAYER_NAME = input("Welcome! What's your name?")
 print("Welcome", PLAYER_NAME, "to my rock, paper, scissors game!")
 print("Rock, Paper, Scissors, Shoot!")
 
