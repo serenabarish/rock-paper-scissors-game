@@ -1,6 +1,9 @@
 # this is the "game.py" file...
 
 import random
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 PLAYER_NAME = input("Welcome! What's your name?")
 print("Welcome", PLAYER_NAME, "to my rock, paper, scissors game!")
