@@ -12,7 +12,6 @@ Fork this [remote repository] (https://github.com/serenabarish/rock-paper-scisso
 ````
 cd desktop/rock-paper-scissors-game
 ````
-
 Create and activate and new Anaconda virtual environment.
 ````
 conda create -n game-env python=3.7 # first time only
