@@ -20,4 +20,4 @@ conda create -n game-env python=3.7 # first time only
 conda activate game-env
 ````
 ## Customizing the player name
-You can create a custom player name by passing an environment variable called "Player_Name" stored in a local ".env" file.
+In the root directory of your local repository, create a new file called ".env" and create a new variable called "Player_Name" stored in the ".env" file.
