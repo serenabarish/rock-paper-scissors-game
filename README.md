@@ -13,12 +13,17 @@ Fork this [remote repository] (https://github.com/serenabarish/rock-paper-scisso
 cd desktop/rock-paper-scissors-game
 ````
 
-## Setup
 Create and activate and new Anaconda virtual environment.
 ````
 conda create -n game-env python=3.7 # first time only
 conda activate game-env
 ````
+After activating the virtual environment, install package dependencies (see the [requirements.txt](/requirements.txt) file):
+````sh
+pip install -r requirements.txt
+````
+
+## Setup
 In the root directory of your local repository, create a new file called ".env" and create a new variable called "Player_Name" stored in the ".env" file.
 
 ## Usage
